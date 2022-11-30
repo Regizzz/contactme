@@ -16,15 +16,22 @@
 }
 
 .logo {
+    margin-top: 1rem;
     flex: 2;
 }
 
 .contacts {
     flex: 1;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: nowrap;
+    margin: 1rem;
 }
 
 .infoshit {
+    margin-top: 2rem;
     color: #111827;
+    gap: 2rem;
     margin: 5rem;
     display: flex;
 }
