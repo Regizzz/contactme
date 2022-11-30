@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.15/fullpage.min.css" integrity="sha512-FKlWnaJrtBEqH+gNy8kvp+/61S+8iOKb5tG+EKCQ3Fc3iUYr9MvnywpkZBcuNKrxQxlnZYpNwDgkZ2atX7wVVg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.15/fullpage.min.js" integrity="sha512-rNf09cQHIWzD8BU37lIb3rInygeWXW2hVqJ7niVtTPXWuVR3aFiph1eFIeDiEQV8J45u0qfp7ng8I3TzJHY4Eg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>shitfolio</title>
+</head>
+<body>
+    <div id="header">
+        <div class="logo">
+            <h2>The shittiest text will be here</h2>
+        </div>
+        <div class="contacts">
+            <i class="nes-icon github is-medium"></i>
+            <i class="nes-icon gmail is-medium"></i>
+            <i class="nes-icon linkedin is-medium"></i>
+            <i class="nes-icon instagram is-medium"></i>
+        </div>
+    </div>
+    <div id="fullpage">        
+        <div class="section active">
+            
+            <div class="nes-container infoshit">
+                <div>
+                    <h1>Some Shit</h1>
+                </div>
+                <div>
+                    <p>Once upon a time shit happened. Some shit. Some shit. Some shit. Some shit. Some shit. Some shit. Some shit. Some shit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="second_section">
+            
+        </div>
+        <div class="section" id="third_section">
+            <div class="wrapper">
+                <form action="" method="post">
+                    <label for="cardnumber">card number</label>
+                    <input type="text" placeholder="enter your card credentials">
+                    <label for="cardholder">card holder</label>
+                    <input type="text">
+                    <label for="expiredate">expire date</label>
+                    <input type="date" name="date_expire" id="expire_date">
+                    <label for="cvv">cvv</label>
+                    <input type="text">
+                    <input type="button" value="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        new fullpage('#fullpage', {
+            //options here
+            autoScrolling:true,
+            scrollHorizontally: true
+        });
+    </script>
+</body>
+</html>
